@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Row and Column Layout - Flexbox</title>
+  </head>
+  <body
+    class="flex flex-wrap gap-4 justify-center items-center h-screen bg-gray-200"
+  >
+    <!-- Row - Center -->
+    <div
+      class="flex flex-row items-center justify-center w-[200px] h-[200px] bg-gray-300"
+    >
+      <div class="bg-sky-900 border-4 border-orange-500 w-1/3 h-12"></div>
+      <div class="bg-sky-900 border-4 border-orange-500 w-1/3 h-12"></div>
+      <div class="bg-sky-900 border-4 border-orange-500 w-1/3 h-12"></div>
+    </div>
+
+    <!-- Column - Center -->
+    <div
+      class="flex flex-col items-center justify-center w-[200px] h-[200px] bg-gray-300"
+    >
+      <div class="bg-sky-900 border-4 border-orange-500 w-12 h-1/3"></div>
+      <div class="bg-sky-900 border-4 border-orange-500 w-12 h-1/3"></div>
+      <div class="bg-sky-900 border-4 border-orange-500 w-12 h-1/3"></div>
+    </div>
+
+    <!-- Row - Bottom -->
+    <div
+      class="flex flex-row items-end justify-center w-[200px] h-[200px] bg-gray-300"
+    >
+      <div class="bg-sky-900 border-4 border-orange-500 w-1/3 h-12"></div>
+      <div class="bg-sky-900 border-4 border-orange-500 w-1/3 h-12"></div>
+      <div class="bg-sky-900 border-4 border-orange-500 w-1/3 h-12"></div>
+    </div>
+
+    <!-- Column - Right -->
+    <div
+      class="flex flex-col items-end justify-center w-[200px] h-[200px] bg-gray-300"
+    >
+      <div class="bg-sky-900 border-4 border-orange-500 w-12 h-1/3"></div>
+      <div class="bg-sky-900 border-4 border-orange-500 w-12 h-1/3"></div>
+      <div class="bg-sky-900 border-4 border-orange-500 w-12 h-1/3"></div>
+    </div>
+  </body>
+</html>

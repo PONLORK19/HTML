@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Child Element Alignment - Flexbox</title>
+  </head>
+  <body
+    class="flex flex-wrap gap-4 justify-center items-center h-screen bg-gray-200"
+  >
+    <div
+      class="flex flex-col items-center justify-start w-[200px] h-[200px] bg-gray-300"
+    >
+      <div class="flex items-center justify-center bg-orange-500 w-full h-12">
+        child
+      </div>
+    </div>
+
+    <div
+      class="flex flex-row items-center justify-start w-[200px] h-[200px] bg-gray-300"
+    >
+      <div class="flex items-center justify-center bg-orange-500 w-12 h-full">
+        child
+      </div>
+    </div>
+
+    <div
+      class="flex flex-col items-center justify-center w-[200px] h-[200px] bg-gray-300"
+    >
+      <div class="flex items-center justify-center bg-orange-500 w-full h-12">
+        child
+      </div>
+    </div>
+
+    <div
+      class="flex flex-row items-center justify-end w-[200px] h-[200px] bg-gray-300"
+    >
+      <div class="flex items-center justify-center bg-orange-500 w-12 h-full">
+        child
+      </div>
+    </div>
+  </body>
+</html>

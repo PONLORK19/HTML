@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Flexbox Example</title>
+  </head>
+  <body class="flex flex-wrap gap-4 justify-center items-center h-screen">
+    <div class="flex items-start justify-start w-[200px] h-[200px] bg-gray-300">
+      <div class="flex bg-orange-500 w-12 h-12 justify-center items-center">
+        child
+      </div>
+    </div>
+
+    <div class="flex items-end justify-start w-[200px] h-[200px] bg-gray-300">
+      <div class="flex justify-center items-center bg-orange-500 w-12 h-12">
+        child
+      </div>
+    </div>
+
+    <div
+      class="flex items-center justify-center w-[200px] h-[200px] bg-gray-300"
+    >
+      <div class="flex justify-center items-center bg-orange-500 w-12 h-12">
+        child
+      </div>
+    </div>
+
+    <div class="flex items-end justify-end w-[200px] h-[200px] bg-gray-300">
+      <div class="flex justify-center items-center bg-orange-500 w-12 h-12">
+        child
+      </div>
+    </div>
+  </body>
+</html>
